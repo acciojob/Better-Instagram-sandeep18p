@@ -5,7 +5,7 @@ function allowDrop(ev) {
 }
 
 function drag(ev) {
-  draggedElement = ev.target;
+ draggedElement = document.getElementById(ev);
 }
 
 function drop(ev, targetId) {
